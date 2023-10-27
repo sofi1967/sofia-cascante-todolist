@@ -10,3 +10,19 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.todoList {
+    border: 1px solid black;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    padding: 2em;
+}
+
+.todoDeleteButton {
+    display: none;
+}
+      
+.todoElement:hover .todoDeleteButton {
+    display: block;
+}
